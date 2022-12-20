@@ -9,6 +9,51 @@ const questions = [
     message: "What is your application Title",
     name: "title",
   },
+  {
+    type: "input",
+    message: "What is the short description?",
+    name: "description",
+  },
+  {
+    type: "input",
+    message: "Enter the Installation instructions",
+    name: "installation",
+  },
+  {
+    type: "input",
+    message: "Who can use this Application?",
+    name: "usage",
+  },
+  {
+    type: "input",
+    message: "Who contributed to this Application?",
+    name: "contributing",
+  },
+  {
+    type: "input",
+    message: "Enter Test Instructions?",
+    name: "tests",
+  },
+  {
+    type: "choices",
+    message: "What license is used?",
+    name: "license",
+  },
+  {
+    type: "input",
+    message: "What is your Github User Name",
+    name: "github",
+  },
+  {
+    type: "input",
+    message: "What is your Github Link?",
+    name: "github_link",
+  },
+  {
+    type: "input",
+    message: "What is your Email Address?",
+    name: "email",
+  },
 ];
 
 // TODO: Create a function to write README file
