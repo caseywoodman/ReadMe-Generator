@@ -33,8 +33,9 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## QUESTIONS
-  ${data.github} - ${data.github_link}
-  ${data.email}
+  [${data.github}](${data.github_link})
+
+  or contact me via email at ${data.email}.
 
 
 `;
