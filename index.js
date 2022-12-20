@@ -35,8 +35,9 @@ const questions = [
     name: "tests",
   },
   {
-    type: "choices",
+    type: "list",
     message: "What license is used?",
+    choices: ["NONE", "MIT", "APACHE", "APM", "DUB", "BOWER"],
     name: "license",
   },
   {
