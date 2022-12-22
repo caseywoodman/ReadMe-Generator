@@ -1,8 +1,7 @@
-# Professional Readme Generator
+# Professional ReadMe Generator
+
   <img src="https://img.shields.io/badge/license-MIT-blue.svg">
    
-  ## DESCRIPTION
-    This application is used to generate the readMe for all projects moving forward
   ## TABLE OF CONTENTS
   ## [Description](#description)
   ## [Installation](#installation)
@@ -11,26 +10,39 @@
   ## [Contributing](#contributing)
   ## [Tests](#tests)
   ## [Questions](#questions)
-
+  
+  ## DESCRIPTION
+    This application is used to create a professional ReadMe by asking the user to answer a few prompted questions in the terminal.
+    
   ## INSTALLATION
-    to install you need to open the ReadMe Generator Folder in an integrated terminal. Then you should use the command "node index.js . After you can answer the prompted questions to generate the readme file.
+    To install this application you need to open the ReadMe-Generator file, and open the integrated terminal for the index.js file. After opening the terminal you can use the command "node index.js" to start the questions to be answered. At the end of the questions the ReadMe will be generated.
 
-  ## USAGE
-    any and all users can select to use this application
+## USAGE
 
-  
-  
-  ## License
-    this project is licensed under MIT
+    Any user can use this application
 
+## License
 
-  ## CONTRIBUTING
-    this application was created by Casey Woodman
+    This project is licensed under MIT
 
-  ## TESTS
-    Testing for this application has been done by going through the command prompts and setting the answers to see the readme created
+## CONTRIBUTING
 
-  ## QUESTIONS
-  [Caseywoodman](https://github.com/caseywoodman)
-  
-  or contact me via email at caseytwoodman@gmail.com.
+    This application was started with coding snips, and completed by Casey Woodman
+
+## TESTS
+
+    Testing has been completed by going through the questions and creating the readme file.
+
+## QUESTIONS
+
+[caseywoodman](https://github.com/caseywoodman)
+
+or contact me via email at Caseytwoodman@gmail.com.
+
+## DEMO
+
+[VIDEO DEMO](https://watch.screencastify.com/v/AGDkFFZZmM0Kw6BwOhui)
+
+## SCREENSHOTS
+
+![Open in Integrated Terminal](/images/Open%20in%20integrated%20Terminal.png) ![node Prompts to gather data](/images/ANSWERING%20QUESTIONS.png)
