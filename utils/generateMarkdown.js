@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license !== "none") {
+  if (license !== "NONE") {
     return `<img src="https://img.shields.io/badge/license-${license}-blue.svg">`;
   } else {
     return "";
@@ -11,7 +11,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license !== "none") {
+  if (license !== "NONE") {
     return `[go to license](#license)`;
   } else {
     return "";
@@ -21,7 +21,7 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (license !== "none") {
+  if (license !== "NONE") {
     return `
   
   ## License
@@ -39,6 +39,13 @@ function generateMarkdown(data) {
   ## DESCRIPTION
     ${data.description}
   ## TABLE OF CONTENTS
+  ## [Description](#description)
+  ## [Installation](#installation)
+  ## [Usage](#usage)
+  ## ${renderLicenseLink(data.license)}
+  ## [Contributing](#contributing)
+  ## [Tests](#tests)
+  ## [Questions](#questions)
 
   ## INSTALLATION
     ${data.installation}
@@ -56,9 +63,9 @@ function generateMarkdown(data) {
     ${data.tests}
 
   ## QUESTIONS
-    [${data.github}](${data.github_link})
-
-    or contact me via email at ${data.email}.
+  [${data.github}](${data.github_link})
+  
+  or contact me via email at ${data.email}.
 `;
 }
 
