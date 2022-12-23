@@ -3,13 +3,13 @@
   <img src="https://img.shields.io/badge/license-MIT-blue.svg">
    
   ## TABLE OF CONTENTS
-  ## [Description](#description)
-  ## [Installation](#installation)
-  ## [Usage](#usage)
-  ## [go to license](#license)
-  ## [Contributing](#contributing)
-  ## [Tests](#tests)
-  ## [Questions](#questions)
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [go to license](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
   
   ## DESCRIPTION
     This application is used to create a professional ReadMe by asking the user to answer a few prompted questions in the terminal.
